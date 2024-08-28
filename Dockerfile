@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 8888
 
 # Command to run the Chroma server
-CMD ["chroma", "serve"]
+CMD ["chroma", "run", "--port", "8888"]
